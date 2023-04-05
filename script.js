@@ -1,4 +1,6 @@
+
 var button = document.getElementById('read_button');
+
 
 //ativer o leia mais
 button.addEventListener('click', function() {
@@ -11,4 +13,5 @@ button.addEventListener('click', function() {
     }
 
     button.textContent = 'Leia Mais';
-});
+}); 
+

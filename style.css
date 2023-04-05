@@ -30,71 +30,33 @@ body {
 
 .todos-os-cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.conteudo {
+.part-1, .part-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    padding: 50px 0;
+}
+
+.conteudo1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
+    padding: 50px 20px;
 }
 
 .conteudo2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding-left: 5%;
-}
-
-.conteudo3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-left: 5%;
-}
-
-.conteudo4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-left: 5%;
-}
-
-.conteudo5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-left: 5%;
-}
-
-.conteudo6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-left: 5%;
-}
-
-.conteudo7 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-left: 5%;
-}
-
-.conteudo8 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-left: 5%;
+    /*min-height: 100vh;*/
+    padding: 50px 20px;
 }
 
 .icon {
@@ -145,7 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300px;
+    width: 320px;
     padding: 25px; 
     background-color: white;
     text-align: justify;
