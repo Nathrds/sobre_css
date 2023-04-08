@@ -6,7 +6,7 @@ Exercícios da disciplina Padrões Web, primeiro bimestre. Faculdade de Tecnolog
 
 ## [Sobre CSS](https://nathrds.github.io/sobre_css/)
 
-Site sobre CSS.
+Site responsivo sobre CSS.
 
 <br/>
 
